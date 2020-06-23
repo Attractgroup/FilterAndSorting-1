@@ -1,5 +1,5 @@
 {
-    "name": "nemesis/laravel-filter-and-sorting",
+    "name": "attract/laravel-filter-and-sorting",
     "description": "Filter And Sorting trait",
     "type": "library",
     "version": "1.0.5",
@@ -11,12 +11,11 @@
         }
     ],
     "require": {
-        "laravel/framework": ">=5.1.1",
         "doctrine/dbal": "^2.5"
     },
     "autoload": {
         "psr-4": {
-            "Nemesis\\FilterAndSorting\\": "src/"
+            "Attract\\FilterAndSorting\\": "src/"
         }
     }
 }
